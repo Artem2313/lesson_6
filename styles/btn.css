@@ -1,0 +1,42 @@
+.btn {
+    font-size: 0.9rem;
+    padding: 1.2461rem 3.4616rem;
+    background-color: transparent;
+border-radius: 33px;
+    transition: all 0.5s;
+}
+
+.btn:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.btn > .btn__icon {
+    display: none;
+}
+
+.btn_default {
+    border-width: 1px;
+    border-color: #dadcdf;
+}
+
+.btn_default:hover {
+    background-color: #267df4;
+    border-color: #267df4;
+    color: #ffffff;
+}
+
+.btn_with-icon > .btn__icon {
+    display: initial;
+    float: left
+}
+
+.btn_with-icon_left > .btn__icon {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.btn_with-icon_right > .btn__icon {
+    float: right;
+    margin-left: 0.5rem;
+}

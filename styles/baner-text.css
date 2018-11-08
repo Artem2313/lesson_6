@@ -1,0 +1,13 @@
+.banner-text {
+    text-align: center;
+}
+
+.banner-text__header {
+    font-family: "Varela Round", sans-serif;
+    color: #26272d;
+}
+
+.banner-text__description {
+    color: #8c8f94;
+
+}

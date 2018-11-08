@@ -1,0 +1,8 @@
+.logo {
+    text-transform: uppercase;
+    display: flex;
+}
+
+.logo__bold {
+    font-weight: bold;
+}

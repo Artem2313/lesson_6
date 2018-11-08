@@ -1,0 +1,7 @@
+.main-section__banner-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    max-width: 620px ;
+}

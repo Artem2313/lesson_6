@@ -1,0 +1,10 @@
+@import "./styles/fonts.css";
+@import "./styles/base.css";
+@import "styles/btn.css";
+
+@import "styles/page-header.css";
+@import "styles/nav.css";
+@import "styles/logo.css";
+
+@import "styles/baner-text.css";
+@import "styles/main-section.css";

@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.nav__item {
+    display: flex;
+    align-items: center;
+}
+.nav__link {
+    padding: 0.5rem 1rem;
+    color: #26272d;
+    transition: color 0.5s;
+}
+
+.nav__link:hover {
+    color: #9f9fa1;
+}
+
+.nav__link > .btn {
+   padding: 0.5rem 0.75rem
+}
